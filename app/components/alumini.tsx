@@ -69,7 +69,7 @@ const Alumni = () => {
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}
-          slidesPerView={4} // Default number of slides
+          slidesPerView={4} 
           loop={true}
           autoplay={{
             delay: 0,
@@ -80,14 +80,14 @@ const Alumni = () => {
           freeModeMomentum={false}
           allowTouchMove={false}
           breakpoints={{
-            640: { slidesPerView: 1 }, // 1 slide on mobile
-            1024: { slidesPerView: 2 }, // 2 slides on tablets
-            1280: { slidesPerView: 3 }, // 3 slides on laptops/desktops
+            640: { slidesPerView: 1 }, 
+            1024: { slidesPerView: 2 }, 
+            1280: { slidesPerView: 3 }, 
           }}
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-2xl p-6 border border-gray-200 mx-2"> {/* Added mx-2 for spacing */}
+              <div className="bg-white rounded-2xl p-6 border border-gray-200 mx-2"> 
                 <div className="flex items-center gap-3">
                   <img src={testimonial.img} alt={testimonial.name} className="w-12 h-12 rounded-full" />
                   <div className="text-left">

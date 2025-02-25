@@ -11,7 +11,7 @@ const Counter = ({ end, duration = 2 }) => {
   
     useEffect(() => {
       let start = 0;
-      const increment = end / (duration * 60); // FPS-based increment
+      const increment = end / (duration * 60);
       const interval = setInterval(() => {
         start += increment;
         if (start >= end) {

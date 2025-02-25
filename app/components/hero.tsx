@@ -56,13 +56,13 @@ const HeroSection = () => {
     <FaSearch className="text-gray-400" />
   </div>
 
-  {/* Explore Text with Heart Icon */}
+
   <div className="flex items-center space-x-2 text-white mt-5">
     <p className="text-lg">Explore our more useful products</p>
     <FaHeart />
   </div>
 
-  {/* Images Section */}
+
   <div className="flex items-center justify-between space-x-4">
     <img src={Ezi3}  className="h-14 w-55 mr-10" />
     <img src={Ezi1}  className="h-10 w-45 " />

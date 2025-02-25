@@ -22,10 +22,10 @@ const LogoSlider = () => {
     <div className="overflow-hidden bg-white py-10">
      <motion.div
         className="flex space-x-10 w-[200%]"
-        animate={{ x: ["0vw", "-10vw"] }}  // Use viewport width for smoother motion
+        animate={{ x: ["0vw", "-10vw"] }}  
         transition={{
             repeat: Infinity,
-            duration: 10,  // Increase duration to slow it down
+            duration: 10,  
             ease: "linear",
         }}
         >
